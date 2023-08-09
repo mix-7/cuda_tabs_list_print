@@ -1,0 +1,13 @@
+[info]
+title=Tabs List Print
+desc=(Fill the description)
+type=cudatext-plugin
+subdir=cuda_tabs_list_print
+homepage=(Fill the GitHub repo URL)
+
+[item2]
+section=commands
+#caption=Test command
+caption=Tabs List Print
+method=run
+
