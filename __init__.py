@@ -6,8 +6,7 @@ _   = get_translation(__file__)  # I18N
 
 class Command:
     
-
-def run(self):
+    def run(self):
 #        msg_box(s, MB_OK)
 #        CudaText API - Free Pascal wiki
 #https://wiki.freepascal.org/CudaText_API
@@ -21,12 +20,12 @@ def run(self):
 #Example code, which shows filenames of all tabs:
 
     #show all file names in console
-    print("Tab list:")
-    print("=====================================================================:")
-    for h in ed_handles():
-        e = Editor(h)
-        print(e.get_filename()) 
-    print("=====================================================================:")
+        print("Tab list:")
+        print("=====================================================================:")
+        for h in ed_handles():
+            e = Editor(h)
+            print(e.get_filename()) 
+        print("=====================================================================:")
 
 
 
